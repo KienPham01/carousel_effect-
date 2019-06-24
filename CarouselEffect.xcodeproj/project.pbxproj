@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180C9C7322C0C9A00099467C /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C9C7222C0C9A00099467C /* UPCarouselFlowLayout.swift */; };
 		18302D6D22A8182F0023C374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18302D6C22A8182F0023C374 /* AppDelegate.swift */; };
 		18302D6F22A8182F0023C374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18302D6E22A8182F0023C374 /* ViewController.swift */; };
 		18302D7222A8182F0023C374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18302D7022A8182F0023C374 /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		18302DA022AA66560023C374 /* NewFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18302D9E22AA66560023C374 /* NewFeedCell.xib */; };
 		18302DA322AAB6930023C374 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18302DA222AAB6930023C374 /* DataService.swift */; };
 		18302DA522AB53380023C374 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18302DA422AB53380023C374 /* Product.swift */; };
-		18302DA922ABAC8D0023C374 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18302DA822ABAC8D0023C374 /* UPCarouselFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180C9C7222C0C9A00099467C /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		18302D6922A8182F0023C374 /* CarouselEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18302D6C22A8182F0023C374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18302D6E22A8182F0023C374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		18302D9E22AA66560023C374 /* NewFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewFeedCell.xib; sourceTree = "<group>"; };
 		18302DA222AAB6930023C374 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		18302DA422AB53380023C374 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		18302DA822ABAC8D0023C374 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = "../../../../Downloads/Swift-4---How-to-create-iCarousel-effect-in-CollectionView-Using-UPCarouselFlowLayout-iOS-Hindi.-master/taskCollectionFlowLayout/taskCollectionFlowLayout/UPCarouselFlowLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				18302DAA22ABAC9C0023C374 /* layout */,
-				18302DA822ABAC8D0023C374 /* UPCarouselFlowLayout.swift */,
 				18302DA122AAB62E0023C374 /* Service */,
 				18302D9C22AA5F660023C374 /* Controller */,
 				18302D9B22AA5F5B0023C374 /* View */,
@@ -176,6 +175,7 @@
 		18302DAA22ABAC9C0023C374 /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				180C9C7222C0C9A00099467C /* UPCarouselFlowLayout.swift */,
 			);
 			path = layout;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			files = (
 				18302D6F22A8182F0023C374 /* ViewController.swift in Sources */,
 				18302D9F22AA66560023C374 /* NewFeedCell.swift in Sources */,
-				18302DA922ABAC8D0023C374 /* UPCarouselFlowLayout.swift in Sources */,
+				180C9C7322C0C9A00099467C /* UPCarouselFlowLayout.swift in Sources */,
 				18302DA522AB53380023C374 /* Product.swift in Sources */,
 				18302D6D22A8182F0023C374 /* AppDelegate.swift in Sources */,
 				18302DA322AAB6930023C374 /* DataService.swift in Sources */,
